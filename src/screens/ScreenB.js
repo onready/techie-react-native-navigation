@@ -9,7 +9,7 @@ export default class ScreenB extends PureComponent {
     return (
       <View style={styles.container}>
         <Text style={styles.text}>Screen B</Text>
-        <Button title='Go to B' onPress={this.navigate}/>
+        <Button title='Go to C' onPress={this.navigate}/>
       </View>
     )
   }
