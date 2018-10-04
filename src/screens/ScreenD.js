@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
 export default class ScreenD extends PureComponent {
+
   render() {
     return (
       <View style={styles.container}>

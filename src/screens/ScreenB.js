@@ -3,7 +3,11 @@ import { Button, StyleSheet, Text, View } from 'react-native'
 
 export default class ScreenB extends PureComponent {
 
-  navigate = () => {}
+  static navigationOptions = {
+    title: 'ScreenB'
+  }
+
+  navigate = () => this.props.navigation.navigate('ScreenC')
 
   render() {
     return (
